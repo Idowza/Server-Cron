@@ -1,2 +1,2 @@
 # Server Cron
-BASH Script to automate daily homelab server updates.
+BASH Script for automated daily homelab server updates with cron.
