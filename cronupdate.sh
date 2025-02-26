@@ -14,5 +14,5 @@ apt-get autopurge -y
 apt-get install -f -y
 dpkg --configure -a
 
-sudo pihole -up
+sudo PIHOLE_SKIP_OS_CHECK=true pihole -up
 sudo pihole -g
