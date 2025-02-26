@@ -14,5 +14,5 @@ apt-get autopurge -y
 apt-get install -f -y
 dpkg --configure -a
 
-pihole -up
-pihole -g
+sudo pihole -up
+sudo pihole -g
